@@ -1,3 +1,5 @@
+# testing_SPL
+
 # Autosave files
 *.asv
 *.m~
@@ -35,7 +37,21 @@ codegen/
 # buildtool cache folder
 .buildtool/
 
-infrared-rodent-detection/runs/
-infrared-rodent-detection/data/
-infrared-rodent-detection/Spinnaker/
-infrared-rodent-detection/demo/
+# infrared-rodent-detection:
+
+infrared-rodent-detection/models
+infrared-rodent-detection/data
+infrared-rodent-detection/demo
+
+infrared-rodent-detection/results
+infrared-rodent-detection/rodent_dataset
+infrared-rodent-detection/detection_dataset
+
+infrared-rodent-detection/.vscode
+__pycache__
+infrared-rodent-detection/other
+
+infrared-rodent-detection/*.pt
+infrared-rodent-detection/*.lnk
+
+infrared-rodent-detection/Spinnaker

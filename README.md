@@ -37,12 +37,14 @@ This repository contains:
 
 - infrared-rodent-detection/
 
-    - **finetune_yolo.ipynb** contains the finetuning script for the YOLOv11n model. The model was trained on this [dataset](https://universe.roboflow.com/panav2/rodent-thermal/dataset/2). The dataset should be placed under `data/` in this folder.
-    - **gpu-yolo.yml** is the environment YAML file which was used for finetuning the YOLOv11n model on GPU.
-    - **realtime_yolo.py** contains the script for running YOLO realtime inference on images streamed from an IR thermal camera.
-    - **spin-yolo.yml** is the environment YAML file which is required for running YOLO inference and connecting to the IR camera. The environment requires the Spinnaker SDK to be installed on the system, as well as the PySpin package in Python.
-    - **models/yolov11n-finetuned-best.pt** contains the PyTorch formatted trained model.
-    - **finetune.yaml** is the YOLO finetuning YAML setup file.
+    - Contains scripts and models for rodent detection using YOLOv11n and OpenCV with an IR thermal camera.
+    - For more details, see the [infrared-rodent-detection/README.md](infrared-rodent-detection/README.md).
+    - Key functionalities:
+        - YOLOv11n finetuning on a rodent thermal dataset ([dataset link](https://universe.roboflow.com/panav2/rodent-thermal/dataset/2)).
+        - Real-time rodent detection and tracking using IR thermal camera streams.
+        - File export, playback, and inference scripts.
+        - Model evaluation and performance metrics.
+        - Environment setup for GPU training and Spinnaker SDK integration.
 
 - drone-path-optimization/
     - **GA.py**
