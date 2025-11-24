@@ -80,4 +80,3 @@ dependencies:
       - ultralytics==8.3.200
       - ultralytics-thop==2.0.17
       - urllib3==2.5.0
-prefix: /home/matijamarijan/miniconda3/envs/yolo
